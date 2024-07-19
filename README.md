@@ -5,12 +5,7 @@ Bumi Pusaka adalah proyek yang berfokus pada panduan wisata alam berkelanjutan d
 ## Daftar Isi
 
 - [Prasyarat](#prasyarat)
-- [Instalasi](#instalasi)
-- [Menjalankan Proyek](#menjalankan-proyek)
-- [Struktur Proyek](#struktur-proyek)
-- [Penggunaan](#penggunaan)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
+- [Instalasi dan Menjalankan Proyek](#instalasi dan menjalankan proyek)
 
 ## Prasyarat
 
@@ -20,7 +15,7 @@ Pastikan Anda telah menginstal perangkat lunak berikut:
 - [Yarn](https://yarnpkg.com/getting-started/install) (opsional, jika Anda menggunakan npm, ganti perintah yarn dengan npm)
 - [Nodemon](https://www.npmjs.com/package/nodemon) (jika belum terinstal, dapat diinstal dengan perintah `npm install -g nodemon`)
 
-## Instalasi
+## Instalasi dan Menjalankan Proyek
 
 1. Clone repositori ini ke komputer Anda:
 
