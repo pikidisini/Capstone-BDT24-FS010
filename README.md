@@ -5,7 +5,7 @@ Bumi Pusaka adalah proyek yang berfokus pada panduan wisata alam berkelanjutan d
 ## Daftar Isi
 
 - [Prasyarat](#prasyarat)
-- [Instalasi dan Menjalankan Proyek](#instalasi dan menjalankan proyek)
+- [Instalasi dan Menjalankan Proyek](#instalasidanmenjalankanproyek)
 
 ## Prasyarat
 
