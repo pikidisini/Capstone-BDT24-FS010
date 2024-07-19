@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Image from "../Image.jsx";
 
 export default function MyRecomPage() {
   const [places, setPlaces] = useState([]);
@@ -16,7 +17,7 @@ export default function MyRecomPage() {
           <Link key={place._id} to={'/account/places/' + place._id} className="flex gap-3 cursor-pointer bg-gray-200 hover:bg-primary hover:text-white p-2 my-2 rounded-2xl">
             <div className="flex grid place-items-stretch w-32 h-32 bg-gray-300 shrink-0 rounded-xl">
               {place.photos.length > 0 && (
-                <img className="object-cover rounded-xl aspect-square" src={"http://localhost:4000/" + place.photos[0]} alt="" />
+                <Image className="object-cover rounded-xl aspect-square" src={place.photos[0]} alt="" />
                 )}
             </div>
             <div className="text-left grow-0 shrink">

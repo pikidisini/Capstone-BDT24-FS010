@@ -11,7 +11,7 @@ export default function PlaceGallery({ place }) {
       <div className="absolute inset-0 bg-black text-white min-h-screen">
         <div className="bg-white p-8 grid gap-4">
           <div>
-            <h2 className="flex text-black text-3xl font-bold mr-48">
+            <h2 className="flex text-black text-md sm:text-3xl font-bold mr-48">
               Galeri {place.title}
             </h2>
             <button
